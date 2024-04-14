@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{A9E7737C-0BD4-41D4-BBF8-389862D57545}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DB3953C0-C970-4632-974E-6F61D3C01177}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{497FEE44-92EC-4CB0-9DBE-96DBC317C45D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{7BA3F1AF-BAED-453A-B550-522A5BBA16F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9EA63A6-9D47-4329-9621-6696270701BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaghakChallenge.Domain", "src\core\OtaghakChallenge.Domain\OtaghakChallenge.Domain.csproj", "{D7AA783D-0E7A-404F-BC3F-71217AB0B40C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaghakChallenge.Application", "src\core\OtaghakChallenge.Application\OtaghakChallenge.Application.csproj", "{F460B4FC-C921-4466-AA30-4A631701D1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaghakChallenge.Persistence", "src\infrastructure\OtaghakChallenge.Persistence\OtaghakChallenge.Persistence.csproj", "{48AB0AF2-E20A-4F24-9083-3FBE33EA30B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaghakChallenge.Infrastructure", "src\infrastructure\OtaghakChallenge.Infrastructure\OtaghakChallenge.Infrastructure.csproj", "{7CDED791-F090-4E92-AF33-F399F6A80191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaghakChallenge.API", "src\presentation\OtaghakChallenge.API\OtaghakChallenge.API.csproj", "{389029CF-19D7-4A4A-8CA3-07E21CF7AFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaghakChallenge.UnitTests", "src\tests\OtaghakChallenge.UnitTests\OtaghakChallenge.UnitTests.csproj", "{48B11C43-E9B1-4A4E-9557-3BA405539733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaghakChallenge.IntegrationTests", "src\tests\OtaghakChallenge.IntegrationTests\OtaghakChallenge.IntegrationTests.csproj", "{991AF0F8-10A1-409D-949D-7C4BBF32D2B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7AA783D-0E7A-404F-BC3F-71217AB0B40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AA783D-0E7A-404F-BC3F-71217AB0B40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AA783D-0E7A-404F-BC3F-71217AB0B40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AA783D-0E7A-404F-BC3F-71217AB0B40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F460B4FC-C921-4466-AA30-4A631701D1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F460B4FC-C921-4466-AA30-4A631701D1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F460B4FC-C921-4466-AA30-4A631701D1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F460B4FC-C921-4466-AA30-4A631701D1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48AB0AF2-E20A-4F24-9083-3FBE33EA30B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AB0AF2-E20A-4F24-9083-3FBE33EA30B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AB0AF2-E20A-4F24-9083-3FBE33EA30B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AB0AF2-E20A-4F24-9083-3FBE33EA30B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDED791-F090-4E92-AF33-F399F6A80191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDED791-F090-4E92-AF33-F399F6A80191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDED791-F090-4E92-AF33-F399F6A80191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDED791-F090-4E92-AF33-F399F6A80191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389029CF-19D7-4A4A-8CA3-07E21CF7AFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389029CF-19D7-4A4A-8CA3-07E21CF7AFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389029CF-19D7-4A4A-8CA3-07E21CF7AFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389029CF-19D7-4A4A-8CA3-07E21CF7AFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B11C43-E9B1-4A4E-9557-3BA405539733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B11C43-E9B1-4A4E-9557-3BA405539733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B11C43-E9B1-4A4E-9557-3BA405539733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B11C43-E9B1-4A4E-9557-3BA405539733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991AF0F8-10A1-409D-949D-7C4BBF32D2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991AF0F8-10A1-409D-949D-7C4BBF32D2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991AF0F8-10A1-409D-949D-7C4BBF32D2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991AF0F8-10A1-409D-949D-7C4BBF32D2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9E7737C-0BD4-41D4-BBF8-389862D57545} = {F9EA63A6-9D47-4329-9621-6696270701BC}
+		{DB3953C0-C970-4632-974E-6F61D3C01177} = {F9EA63A6-9D47-4329-9621-6696270701BC}
+		{497FEE44-92EC-4CB0-9DBE-96DBC317C45D} = {F9EA63A6-9D47-4329-9621-6696270701BC}
+		{7BA3F1AF-BAED-453A-B550-522A5BBA16F9} = {F9EA63A6-9D47-4329-9621-6696270701BC}
+		{D7AA783D-0E7A-404F-BC3F-71217AB0B40C} = {A9E7737C-0BD4-41D4-BBF8-389862D57545}
+		{F460B4FC-C921-4466-AA30-4A631701D1A5} = {A9E7737C-0BD4-41D4-BBF8-389862D57545}
+		{48AB0AF2-E20A-4F24-9083-3FBE33EA30B5} = {7BA3F1AF-BAED-453A-B550-522A5BBA16F9}
+		{7CDED791-F090-4E92-AF33-F399F6A80191} = {7BA3F1AF-BAED-453A-B550-522A5BBA16F9}
+		{389029CF-19D7-4A4A-8CA3-07E21CF7AFF8} = {497FEE44-92EC-4CB0-9DBE-96DBC317C45D}
+		{48B11C43-E9B1-4A4E-9557-3BA405539733} = {DB3953C0-C970-4632-974E-6F61D3C01177}
+		{991AF0F8-10A1-409D-949D-7C4BBF32D2B0} = {DB3953C0-C970-4632-974E-6F61D3C01177}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF0B1FCE-60D8-4BB6-97FC-0236A0F1C850}
+	EndGlobalSection
+EndGlobal
